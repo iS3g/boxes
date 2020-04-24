@@ -75,7 +75,7 @@ El enlace para modificar el torrent es el siguiente:
 
 Al subir una imagen aparece el siguiente mensaje:
 
-<p align="center"> <img src="https://raw.githubusercontent.com/iS3g/boxes/master/images/popcorn/image5.png"></p>
+<img src="https://raw.githubusercontent.com/iS3g/boxes/master/images/popcorn/image5.png">
 
 El siguiente paso es buscar el directorio donde se suben las imágenes.
 <p align="center"> <img src="https://raw.githubusercontent.com/iS3g/boxes/master/images/popcorn/image6.png"></p>
@@ -185,11 +185,9 @@ El archivo marcado en rojo, es el php que subimos mediante burpsuite, y será de
 
 ### Ejecución de comandos remotos
 
-Con el php en el servidor, vamos a ejecutar comandos remotos que nos permita realizar consultas directas. Nuestro código PHP es <?php system($_REQUEST['iseg']); ?>.
-```markdown
-http://10.10.10.6/torrent/upload/12627cf538d2c6a9268e7eb41e30cba06822007b.php?iseg=whoami
-```
-<p align="center"> <img src="https://raw.githubusercontent.com/iS3g/boxes/master/images/popcorn/image13.png"></p>
+Con el php en el servidor, vamos a ejecutar comandos remotos que nos permita realizar consultas directas. 
+
+<img src="https://raw.githubusercontent.com/iS3g/boxes/master/images/popcorn/image13.png">
 
 Haciendo un ls a la carpeta home, se ve la existencia de un usuario george. Con el comando cat al archivo el user.txt, se puede ver la bandera.
 
@@ -375,3 +373,5 @@ f122*******************d9b14
 ```
 
 Otro exploit que funciona, es el [15704.c](https://www.exploit-db.com/exploits/15704) (CVE-2010-4258) publicado en  2010, y el exploit [pokemon](https://github.com/FireFart/dirtycow/blob/master/dirty.c) que explota la vulnerabilidad dyrticow. En dirtycow.ninja se encuentran PoC sobre la escalación de privilegios explotando el kernel de Linux.
+
+Tutorial realizado por [iS3g](https://www.hackthebox.eu/home/users/profile/262959)
