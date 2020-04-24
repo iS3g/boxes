@@ -374,10 +374,8 @@ f122*******************d9b14
 
 Otro exploit que funciona, es el [15704.c](https://www.exploit-db.com/exploits/15704) (CVE-2010-4258) publicado en  2010, y el exploit [pokemon](https://github.com/FireFart/dirtycow/blob/master/dirty.c) que explota la vulnerabilidad dyrticow. En dirtycow.ninja se encuentran PoC sobre la escalación de privilegios explotando el kernel de Linux.
 
-```
-Tutorial realizado por [iS3g](https://www.hackthebox.eu/home/users/profile/262959)
-```
----
 
+Tutorial realizado por [iS3g](https://www.hackthebox.eu/home/users/profile/262959)
+---
 
 <p align="center"> [Regresar](https://is3g.github.io/boxes/) </p>
