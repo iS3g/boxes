@@ -48,6 +48,30 @@ Al acceder a la carpeta /torrent se encuentra una página de Torrent Hoster, don
 
 ### Identificación de Vulnerabilidades
 
+#### Searchsploit
+
+Usando la herramienta searchsploit desde kali linux, encuentramos un exploit para torrent host.
+
+<p align="center"> <img src="https://raw.githubusercontent.com/iS3g/boxes/master/images/popcorn/image3.png"></p>
+
+El exploit encontrado, hace referencia a una vulnerabilidad que permite subir archivos al servidor, tales como una shell en php.
+
+Abrimos el navegador, y desde la url antes mencionada http://10.10.10.6/torrent,  nos ubicamos en la opción "uploads de Torrent" y notamos que nos deja subir únicamente los archivos con extensión .torrent. También notamos que, al momento de subir los torrents, existen varias categorías, entre ellas pictures (se deberá verificar si es posible subir imágenes). 
+
+Una vez que se sube el .torrent, se crea un enlace hacia el torrent.
+
+```markdown
+http://10.10.10.6/torrent/torrents.php?mode=details&id=12627cf538d2c6a9268e7eb41e30cba06822007b
+```
+En la pestaña de Browse, podemos ver nuestro torrent que acabamos de subir, y dando clic sobre el mismo, se abre una ventana con la descripción, y notamos algo importante: que es posible editar el torrent:
+
+<p align="center"> <img src="https://raw.githubusercontent.com/iS3g/boxes/master/images/popcorn/image4.png"></p>
+
+El enlace para modificar el torrent es el siguiente:
+
+```markdown
+10.10.10.6/torrent/edit.php?mode=edit&id=12627cf538d2c6a9268e7eb41e30cba06822007b 
+```
 ### Identificación de Vulnerabilidades
 
 ### Escalación de Privilegios
