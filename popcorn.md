@@ -378,4 +378,4 @@ Otro exploit que funciona, es el [15704.c](https://www.exploit-db.com/exploits/1
 Tutorial realizado por [iS3g](https://www.hackthebox.eu/home/users/profile/262959)
 ---
 
-<p align="center"> [Regresar](https://is3g.github.io/boxes/) </p>
+<a href="https://is3g.github.io/boxes/"><p style="text-align:center">Regresar</p></a>
