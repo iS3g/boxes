@@ -1,6 +1,6 @@
 ## Popcorn
 
-![avatar](https://github.com/iS3g/boxes/blob/master/avatarsBoxes/popcorn.png)
+![avatar](https://raw.githubusercontent.com/iS3g/boxes/master/avatarsBoxes/popcorn.png)
 
 ### Resumen
 
