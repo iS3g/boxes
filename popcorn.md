@@ -1,7 +1,7 @@
-## `Popcorn`
+## Popcorn
 ```
 <p align="center">
-  <img width="300" height="300" src="https://raw.githubusercontent.com/iS3g/boxes/master/avatarsBoxes/popcorn.png">
+  <img width="300" height="300" src="https://raw.githubusercontent.com/iS3g/boxes/master/images/popcorn/popcorn.png">
 </p>
 ```
 ---
@@ -15,6 +15,16 @@ gobuster dir -u http://10.10.10.6 -w /usr/share/wordlists/dirbuster/directory-li
 
 ### Reconocimiento
 
+### Identificación de puertos
+
+En el escaneo de puertos, se identifica únicamento abiertos los puertos 22, y 80.
+
+```
+<p align="center">
+  <img width="300" height="300" src="https://raw.githubusercontent.com/iS3g/boxes/master/images/popcorn/image.png">
+</p>
+```
+---
 ### Identificación de Vulnerabilidades
 
 ### Identificación de Vulnerabilidades
