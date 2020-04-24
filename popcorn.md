@@ -1,27 +1,27 @@
-## Popcorn
+# Popcorn
 
 <p align="center">
   <img width="300" height="300" src="https://raw.githubusercontent.com/iS3g/boxes/master/images/popcorn/popcorn.png">
 </p>
 
 
-### Resumen
+## Resumen
 
 Popcorn es una máquina Linux creada por el usuario [Ch4t1](https://www.hackthebox.eu/home/users/profile/1), lanzada el 15 de marzo de 2017. El nivel de seguridad es Medium, pero, en las estadísticas, la mayoría de usuarios la califican como Fácil. En la fase de reconocimiento, se identifica los puertos 21 y 80 abiertos, en donde el puerto 80 tiene configurado apache, luego en la etapa de reconocimiento web, se identificó una aplicación de nombre Torrnet Hoster, que es vulnerable a File Upload. En la fase de explotación se modficaron las cabeceras HTTP para realizar un tampering del archivo a subir (PHP), y finalmente se logró escalar privilegios explotando una vulnerabilidad del sistema basada en PAM MOTD. 
 
 IP 10.10.10.6.
 
 
-### Reconocimiento
+## Reconocimiento
 
-#### Identificación de puertos
+### Identificación de puertos
 
 En el escaneo de puertos, se identifica únicamento abiertos los puertos 22, y 80.
 
 
 <p align="center"> <img src="https://raw.githubusercontent.com/iS3g/boxes/master/images/popcorn/image.png"></p>
 
-#### Reconocimiento web
+### Reconocimiento web
 
 Al ingresar a la url http://10.10.10.6, aparece que el sitio web está configurado con Apache.
 
