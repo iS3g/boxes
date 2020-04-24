@@ -30,7 +30,7 @@ Al ingresar a la url http://10.10.10.6, aparece que el sitio web está configura
 Realizando una búsqueda con gobuster, podemos encotrar archivos y carpetas interesantes:
 
 ```markdown
-$ gobuster dir -u http://10.10.10.6 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt 
+$gobuster dir -u http://10.10.10.6 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt 
   -o gobustesr-pop.txt
 ```
 El resultado que se obtiene de gobuster, es una serie de carpetas, entre ellas una de nombre torrent
